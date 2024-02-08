@@ -55,8 +55,8 @@ class Animal {
   const tilapia = new Fish('tilapia', false);
   const frog = new Amphibia('Frog', false);
   const tortoise = new Reptile('tortoise', false);
-  const bird = new Aves('bird', false);
-  const cat = new Mammal('cat', false);
+  const bird = new Aves('bird', true);
+  const cat = new Mammal('cat', true);
   
 
   console.log(butterfly)
